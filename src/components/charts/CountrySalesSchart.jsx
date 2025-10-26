@@ -1,33 +1,3 @@
-// import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts";
-// import { Card, CardContent } from "@/components/ui/card";
-
-// const data = [
-//   { country: "Algeria", Sales: 1, Orders: 0.1 },
-//   { country: "Unknown", Sales: 0.2, Orders: 1 },
-// ];
-
-// export default function CountrySalesChart() {
-//   return (
-//     <Card>
-//       <CardContent className="p-4">
-//         <h3 className="font-semibold mb-2">Country Wise Sales</h3>
-//         <ResponsiveContainer width="100%" height={250}>
-//           <LineChart data={data}>
-//             <CartesianGrid strokeDasharray="3 3" />
-//             <XAxis dataKey="country" />
-//             <YAxis />
-//             <Tooltip />
-//             <Legend />
-//             <Line type="monotone" dataKey="Sales" stroke="#00C49F" />
-//             <Line type="monotone" dataKey="Orders" stroke="#0088FE" />
-//           </LineChart>
-//         </ResponsiveContainer>
-//       </CardContent>
-//     </Card>
-//   );
-// }
-
-
 import React from "react";
 import {
   ResponsiveContainer,
@@ -40,7 +10,6 @@ import {
   Legend,
 } from "recharts";
 
-/* example data with more points for a nice curve */
 const data = [
   { country: "Algeria", Sales: 1.0, Orders: 0.1 },
   { country: "Egypt", Sales: 0.95, Orders: 0.2 },

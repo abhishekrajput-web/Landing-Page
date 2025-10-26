@@ -1,30 +1,3 @@
-// import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from "recharts";
-// import { Card, CardContent } from "@/components/ui/card";
-
-// const data = [{ name: "B2B", value: 100 }];
-// const COLORS = ["#00C49F"];
-
-// export default function CustomerProfileChart() {
-//   return (
-//     <Card>
-//       <CardContent className="p-4">
-//         <h3 className="font-semibold mb-2">Customer Profile</h3>
-//         <ResponsiveContainer width="100%" height={250}>
-//           <PieChart>
-//             <Pie data={data} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={80}>
-//               {data.map((_, i) => (
-//                 <Cell key={i} fill={COLORS[i % COLORS.length]} />
-//               ))}
-//             </Pie>
-//             <Tooltip />
-//           </PieChart>
-//         </ResponsiveContainer>
-//       </CardContent>
-//     </Card>
-//   );
-// }
-
-
 import React from "react";
 import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from "recharts";
 
